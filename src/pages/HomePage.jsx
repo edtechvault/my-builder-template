@@ -1,6 +1,7 @@
 import { Hero } from "@/components/ui/sections/Hero"
 import { Features } from "@/components/ui/sections/Features"
 import { ContactForm } from "@/components/ui/sections/ContactForm"
+import { Testimonials } from "@/components/ui/sections/Testimonials"
 import { Footer } from "@/components/ui/sections/Footer"
 
 export function HomePage() {
@@ -8,6 +9,7 @@ export function HomePage() {
     <>
       <Hero />
       <Features />
+      <Testimonials />
       <ContactForm />
       <Footer />
     </>
