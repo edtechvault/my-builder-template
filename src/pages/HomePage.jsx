@@ -1,7 +1,7 @@
-import { Hero } from "@/components/sections/Hero"
-import { Features } from "@/components/sections/Features"
-import { ContactForm } from "@/components/sections/ContactForm"
-import { Footer } from "@/components/sections/Footer"
+import { Hero } from "../components/ui/sections/Hero"
+import { Features } from "../components/ui/sections/Features"
+import { ContactForm } from "../components/ui/sections/ContactForm"
+import { Footer } from "../components/ui/sections/Footer"
 
 export function HomePage() {
   return (

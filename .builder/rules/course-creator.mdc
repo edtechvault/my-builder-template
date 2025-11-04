@@ -1,0 +1,17 @@
+## Project Type
+Course creator landing pages ($2,999), 7-day delivery.
+
+## Technical Gates
+- Lighthouse: Perf ≥85, A11y ≥90, Best-Practices ≥95, SEO ≥90.
+- Page weight <2 MB; use WebP/AVIF + lazy loading.
+- Events: `cta_clicked`, `form_submit`, `pricing_view` (IO threshold ≈0.3; fire once and disconnect).
+
+## Business Gates
+- Extract 10–15 production-grade components into `/components/vault/`.
+- Month-3 targets: 60+ components, ≥70% reuse. 
+
+## A11y/UX
+- Keyboard navigable; visible focus; proper aria; CTA hit targets ≥44×44.
+
+## References
+Phase-A Implementation Guide & Step-1 Plan.
